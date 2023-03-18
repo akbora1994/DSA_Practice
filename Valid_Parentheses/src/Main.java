@@ -43,3 +43,6 @@ public class Main {
 	}
 
 }
+
+Time Complexity :- O(N)  
+Space Complexity :- O(N) //As I have used stack for storing the values..

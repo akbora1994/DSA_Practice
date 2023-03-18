@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Masai\DSA Practice\.metadata\.plugins\org.eclipse.jdt.core
+3005902239.index
+1498937642.index
+1865797976.index

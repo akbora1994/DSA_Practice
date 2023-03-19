@@ -20,9 +20,10 @@ public class Main {
         
         //Iterating over the string starting from the second last character..
         for(int i = s.length()-2; i>=0; i--){
-			/*comparing the values for character at the ith posn & ith + 1 posn
-			if the value of ith posn is lesser than the value of ith + 1 posn then 
-			we substract from our result otherwise we do addition..*/
+		
+	    /*comparing the values for character at the ith posn & ith + 1 posn
+	      if the value of ith posn is lesser than the value of ith + 1 posn then 
+	      we substract from our result otherwise we do addition..*/
             if(map.get(s.charAt(i)) < map.get(s.charAt(i+1))){
                 result-=map.get(s.charAt(i));
             }
@@ -33,11 +34,11 @@ public class Main {
           return result;
     }
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+    public static void main(String[] args) {
+	// TODO Auto-generated method stub
         String s = "MCMXCIV";
-        int res = romanToInt(s);
-        System.out.println(res);
-	}
+	int res = romanToInt(s);
+	System.out.println(res);
+    }
 
 }

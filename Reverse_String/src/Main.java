@@ -4,7 +4,7 @@ public class Main {
 	APPROACH 1
 	==========
 	
-   public static String reverseString(char[] str) {
+    public static String reverseString(char[] str) {
     	//System.out.println(str);
     	int pointer1 = 0;
     	int pointer2 = str.length-1;
@@ -45,10 +45,10 @@ public class Main {
 	    	
 	    }
 	    
-		public static void main(String[] args) {
-			// TODO Auto-generated method stub
-			 String str = "Akshay";
-			 System.out.println(reverseString(str)); 
-		}
+	  public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Akshay";
+		System.out.println(reverseString(str)); 
+	  }
 
 }

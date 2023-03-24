@@ -19,12 +19,12 @@ public class Main {
 	 }
 	 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int arr1[] = {1,2,3,0,0,0};
-        int arr2[] = {2,5,6};
-        int n = 3;
-        int m = 3;
-        mergeSortedArray(arr1,m,arr2,n);
+	    // TODO Auto-generated method stub
+	    int arr1[] = {1,2,3,0,0,0};
+            int arr2[] = {2,5,6};
+            int n = 3;
+            int m = 3;
+            mergeSortedArray(arr1,m,arr2,n);
 
 	}
 	

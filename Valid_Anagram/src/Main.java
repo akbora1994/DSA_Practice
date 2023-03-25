@@ -3,42 +3,43 @@ import java.util.Arrays;
 public class Main {
 
 	
-//	APPROACH 1:
-//	==========
+	APPROACH 1:
+	==========
 	
-//	public static boolean validAnagram(String str1, String str2) {
-//		
-//		//Base case ==> count of characters must be same..
-//		if(str1.length()!=str2.length()) {
-//			return false;
-//		}
-//		
-//		char[] str1Arr = str1.toCharArray();
-//		char[] str2Arr = str2.toCharArray();
-//		
-//		Arrays.sort(str1Arr);
-//		Arrays.sort(str2Arr);
-//		
-//		//checking whether these two are equal or not..
-//		return Arrays.equals(str1Arr, str2Arr);
-//		
-//	}
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//		String str1 = "anagram";
-//		String str2 = "nagaram";
-//		
-//		System.out.println(validAnagram(str1,str2));
-//	}
+	public static boolean validAnagram(String str1, String str2) {
+		
+		//Base case ==> count of characters must be same..
+		if(str1.length()!=str2.length()) {
+			return false;
+		}
+		
+		char[] str1Arr = str1.toCharArray();
+		char[] str2Arr = str2.toCharArray();
+		
+		Arrays.sort(str1Arr);
+		Arrays.sort(str2Arr);
+		
+		//checking whether these two are equal or not..
+		return Arrays.equals(str1Arr, str2Arr);
+		
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1 = "anagram";
+		String str2 = "nagaram";
+		
+		System.out.println(validAnagram(str1,str2));
+	}
 	
-//	    TC: O(nlogn) ==> as we are using a sorting algorithm..
-//	    SC: O(n) ==> as we are using character array..
+// 	    TC: O(nlogn) ==> as we are using a sorting algorithm..
+// 	    SC: O(n) ==> as we are using character array..
 	
+	-------------------------------------------------------------------------------------------------------------------------------------
 	
+	APRROACH 2:
+	==========
 	
-//	APRROACH 2:
-	
-public static boolean validAnagram(String str1, String str2) {
+         public static boolean validAnagram(String str1, String str2) {
 		
 		//Base case ==> count of characters must be same..
 		if(str1.length()!=str2.length()) {

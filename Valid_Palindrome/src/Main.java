@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 	
-	APPROACH 1 - USING REVEDRSE METHOD
+	APPROACH 1 - USING REVERSE METHOD
 
 	public static boolean isPalindrome(String str) {
 		

@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Main {
 	
-//  APPROACH-1 
-//  ==========
+                                //  APPROACH-1 
+                                //  ==========
 
 	public static int removeDuplicates(int[] arr) {
 	        
@@ -28,22 +28,23 @@ public class Main {
      
 	}
 	
-//  TC: O(n) 
-//  SC: O(1)  ==> not used any extra space..
+       //  TC: O(n) 
+       //  SC: O(1)  ==> not used any extra space..
 	
 	
 	//--------------------------------------------------------------------------------------------
 
 	/*
-    APPROACH-2 using LinkedHashSet
-    ==============================
+                          APPROACH-2 using LinkedHashSet
+                          ==============================
 	
 	
 	public static int removeDuplicates(int[] arr) {
 	        
-		//Inserting all array element into the Set. 
+	    //Inserting all array element into the Set. 
 	    //Set does not allow duplicates and sets like LinkedHashSet maintains the order of insertion so it 
-		//will remove duplicates and elements will be printed in the same order in which it is inserted..
+	    //will remove duplicates and elements will be printed in the same order in which it is inserted..
+	    
 	    LinkedHashSet<Integer> set = new LinkedHashSet<>();
 
 	    for(int i = 0; i < arr.length; i++){
